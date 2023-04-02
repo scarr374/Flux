@@ -1,0 +1,152 @@
+.Products {
+    background-color: #a7a9aa48;
+}
+
+.Products .actual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Products .actual .up {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+    color: #131921;
+    background-color: transparent;
+}
+
+.Products .actual .up .variable {
+    color: #677483;
+}
+
+.Products .actual .down {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Products .actual .down .left {
+    width: 210px;
+}
+
+.Products .actual .down .left  h3{
+    font-size: 17px;
+    font-weight: 600;
+    color: #131921bb;
+}
+
+.Products .actual .down .left .sort {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.Products .actual .down .left .products .options {
+    padding: 0.8rem 0rem;
+    width: 10px
+}
+
+.Products .actual .down .left .products .options ul {
+    list-style:  none;
+    display: flex;
+}
+
+.Products .actual .down .left .products .options li {
+    background-color: #c6c9ca62;
+    padding: 0.1rem 0.2rem;
+    margin: 0.1rem;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Products .actual .down .left .filter {
+    padding: 0.5rem 1rem;
+}
+
+.Products .actual .down .left .filter .sorts {
+    padding: 1rem 0.1rem;
+}
+
+.Products .actual .down .left .filter .sorts .price .ranging {
+    margin-bottom: 1rem;
+}
+
+.Products .actual .down .left .filter .sorts .price .ranging input {
+    background-color: #c6c9ca62;
+    border-radius: 5px;
+    height: 10px;
+}
+
+
+.Products .actual .down .right .top {
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    gap: 35rem;
+    padding: 0.2rem 1.5rem;
+    align-items: center;
+}
+
+.Products .actual .down .right .top .leftside {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.Products .actual .down .right .top .leftside .vary {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Products .actual .down .right .top .leftside .vary .list select{
+    background-color: #a7a9aa48;
+    padding: 0.4rem;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Products .actual .down .right .top .leftside .vary .arrow {
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+
+.Products .actual .down .right .top .rightside {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.Products .actual .down .right .top .rightside .productno p{
+    color: #a7a9aaa8;
+    font-size: 15px;
+}
+
+.Products .actual .down .right .top .rightside .productarrange img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #a7a9aa62;
+    margin-top: 0.4rem;
+    cursor: pointer;
+}
+
+.Products .actual .down .right .top .rightside .productarrange img:active {
+    background-color: #131921b7;
+}
+
+.Products .actual .down .right .top .rightside .productarrange .grid3 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.Products .ending {
+    background-color: rgba(223, 219, 219, 0.253);
+    padding-bottom: 1rem;
+}

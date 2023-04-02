@@ -1,0 +1,120 @@
+.box {
+    padding-top: 1rem;
+    justify-content: center;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.box .category {
+    position: relative;
+}
+
+.box .text {
+    position: absolute;
+}
+
+.box .text span {
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 450;
+    transition: 200ms ease-in-out all;
+}
+
+.box .category img {
+    border-radius: 5px;
+    object-fit: cover;
+    filter: brightness(0.4);
+    transition: 300ms ease-in-out all;
+}
+
+.box .category:hover img {
+    filter: brightness(0.6);
+}
+
+.box .category:hover span {
+    background-color: black;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
+.box img {
+    height: 400px;
+    width: 300px;
+}
+
+
+.box .first img {
+    height: 400px;
+    width: 160px;
+}
+
+.box .first .text {
+    top: 45%;
+    right: 25%;
+}
+
+.box .second {
+    width: 400px;
+}
+
+.box .second .top img {
+    height: 160px;
+    width: 400px;
+}
+
+.box .top .text {
+    top: 40%;
+    right: 40%;
+}
+.box .second .bottam {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.box .second .bottam img {
+    width: 195px;
+    height: 233px;
+}
+
+.box .second .bottam .text {
+    right: 35%;
+    top: 40%;
+}
+
+.box .third img {
+    width: 250px;
+}
+
+.box .third .text {
+    top: 45%;
+    right: 45%;
+}
+
+.fourth .heading {
+    display: flex;
+    justify-content: center;
+    color: #131921da;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.fourth .heading h1 {
+    font-size: 40px;
+}
+
+.fourth .image {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth .image img {
+    height: 166px;
+    width: 300px;
+}
+
+.fourth .image .category .text {
+    position: absolute;
+    right: 32%;
+    top: 40%;
+}

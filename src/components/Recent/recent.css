@@ -1,0 +1,53 @@
+.recents {
+    padding: 1rem 0rem;
+}
+.recents h2 {
+    display: block;
+    color: #131921da;
+    opacity: 0.5;
+    font-size: 26px;
+    font-weight: 650;
+    margin-left: 50px;
+    padding-bottom: 0.5rem;
+
+}
+.recents .main {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.recents .recent {
+    background-color: rgba(66, 65, 61, 0.603);
+    border-radius: 5px;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+    filter: brightness(1);
+    filter: contrast(1);
+    height: 150px;
+    transition: 300ms ease;
+}
+
+.recents .recent img {
+    object-fit: contain;
+    height: 150px;
+    width: 140px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.recents .recent:hover {
+    height: 200px;
+}
+
+.recents .recent:hover img {
+    height: 200px;
+    width: 190px;
+}
+
+.recents .main .recent .text {
+    color: #000000;
+    position: absolute;
+    top: 2px;
+    right: 4px;
+}

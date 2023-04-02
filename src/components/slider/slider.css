@@ -1,0 +1,10 @@
+.marquee {
+    padding: 0.3rem 1rem;
+    gap: 1rem;
+}
+
+.marquee .image {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+}

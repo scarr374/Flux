@@ -1,0 +1,11 @@
+export { default as Brand } from "./brand/Brand";
+export { default as Footer } from "./footer/Footer";
+export { default as Header } from "./header/Header";
+export { default as Slider } from "./slider/Slider";
+export { default as Services } from "./sevices/Services";
+export { default as Categories } from "./categories/Categories";
+export { default as Trending } from "./trending/Trending";
+export { default as Recent } from "./Recent/Recent";
+export { default as Showcase } from "./Showcase/Showcase";
+export { default as Suggest } from "./suggest/Suggest";
+export { default as Sinblog } from "./Sinblog/Sinblog";

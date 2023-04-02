@@ -1,0 +1,23 @@
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.services .service {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.services .service img {
+    width: 25px;
+    height: 22px;
+}
+
+.services .service p {
+    font-size: 13px;
+    color: #7d8da1;
+}

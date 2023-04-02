@@ -1,0 +1,165 @@
+.footer-section {
+    padding: 4rem 4rem 0rem 4rem;
+    position: relative;
+    background-color: #131921;
+}
+
+.footer-section .section .top {
+    margin-bottom: 2rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+    gap: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section .section .top .text {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-section .section .top h2 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer-section .section .top .email {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.07rem 0.08rem 0.07rem 0.8rem;
+}
+
+.footer-section .section .top input {
+    width: 200px;
+}
+
+.footer-section .section .top .email button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0rem;
+    color: white;
+    background-color: #131921;
+    cursor: pointer;
+}
+
+.footer-section .section .middle {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #dce1eb;
+}
+
+.footer-section .section .middle .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .section .middle .row .coll {
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.footer-section .section .middle .row .coll .footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .section .middle .row .col-4 h4 {
+    padding-bottom: 1rem;
+}
+
+.footer-section .section .middle .row .col-1 .ttl {
+    padding-bottom: 1rem;
+}
+
+.footer-section .section .middle .row .coll .footer-links .linkss {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.footer-section .section .middle .row .coll .footer-links .linkss a {
+    background-color: white;
+    display: flex;
+    color: black;
+    border-radius: var(--border-radius-1);
+    padding: 0.5rem;
+}
+
+.footer-section .section .middle .row .coll .footer-links a {
+    margin: 10px 0px;
+}
+
+.footer-section .section .middle .row .coll .footer-links .social_icons {
+    display: flex;
+    color: white;
+    text-decoration: white;
+    gap: 1rem;
+}
+
+.footer-section .section .middle .row .coll .footer-links .social_icons img {
+    height: 25px;
+    width: 25px;
+}
+
+.footer-section .section .middle .row .coll .footer-links .linkss .symbols {
+    border-radius: 6px;
+    align-items: center;
+    padding: 0.2rem 0.8rem 0.2rem 0.4rem;
+}
+
+.footer-section .section .middle .row .coll .footer-links .linkss .symbols img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-section .section .middle .row .coll .footer-links .linkss .symbols .text {
+    padding-left: 0.2rem;
+}
+
+.footer-section .section .middle .row .coll .footer-links .linkss .symbols .text p {
+    font-size: 12px;
+}
+
+.footer-section .section .bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #dce1eb;
+}
+
+.footer-section .section .bottom p {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.footer-section .section .bottom .right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-section .section .bottom .right .card-payment .mastercard {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-section .section .bottom .right .card-payment .paypal {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-section .section .bottom .right .card-payment .visa {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-section .section .bottom .return-top button {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+}
+
+.footer-section .section .bottom .return-top img {
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    padding: 0.1rem 0rem 0.1rem 0.3rem;
+}

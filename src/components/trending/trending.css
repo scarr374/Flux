@@ -1,0 +1,75 @@
+.featured .products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.featured .products h1 {
+    color: #131921da;
+    opacity: 0.5;
+}
+
+.featured .products .product-card {
+    border-radius: 8px;
+    height: 17rem;
+    background-color: #1319218a;
+    position: relative;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+}
+
+.featured .products .product-card .image {
+    padding: 2rem 0rem;
+}
+
+.featured .products .product-card .image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    transition: 200ms ease-in-out all;
+}
+
+.featured .products .product-card .product-details {
+    position: absolute;
+    background-color: #131921;
+    color: white;
+    top: 67%;
+    right: 0%;
+    left: 0%;
+    display: none;
+    padding: 0.4rem 2rem;
+    border-radius: 5px;
+}
+
+.featured .products .product-card .product-details .white {
+    position: absolute;
+    right: 20px;
+    bottom: 4px;
+}
+
+.featured .products .product-card .product-details .white img {
+    width: 20px;
+    height: 20px;
+}
+
+.featured .products .product-card:hover .image  img{
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.featured .products .product-card:hover .product-details {
+    display: block;
+}
+
+.featured .products .product-card .like {
+    position: absolute;
+    top: 0%;
+    right: 5px;
+}
+
+.featured .products .product-card .like img {
+    width: 20px;
+    height: 20px;
+}

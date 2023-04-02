@@ -1,0 +1,98 @@
+.Showcase {
+    padding-top: 1rem;
+    background-color: #13192115;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+}
+
+.Showcase .nav {
+    position: absolute;
+    top: 33rem;
+    right: 31.7rem;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.Showcase .final {
+    display: flex;
+    justify-content: center;
+}
+
+.Showcase .final .image img {
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: blur(0.2px);
+    filter: brightness(0.9);
+    position: relative;
+    box-shadow: 0 2rem 3rem rgba(52, 53, 65, 0.452);
+    transition: 300ms ease;
+}
+
+.Showcase .final .text {
+    padding: 1rem  1rem;
+    height: 300px;
+    position: relative;
+}
+
+.Showcase .final .text::between {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-image: url(../../assets/Products/Backgroud/collections.jpeg);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.4;
+    filter: brightness(0.5);
+}
+
+.Showcase .final .text .title .top {
+    position: relative;
+}
+
+.Showcase .final .text .title .top h4 {
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.Showcase .final .text .title .top .one {
+    position: absolute;
+    left: -100px;
+    top: 0px;
+    animation: slide-up 1s ease 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.Showcase .final .text .title .top .two .factors #line::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 300px;
+    background-color: #131921;
+    top: 110px;
+}
+
+.Showcase .final .text .title .top .two {
+    padding-top: 50px;
+}
+
+.Showcase .final .text .title .description {
+    color: #7d8da1;
+}
+
+.Showcase .final .text .button button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0rem;
+    color: white;
+    background-color: #131921;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    box-shadow: 0 1rem 2rem rgba(52, 53, 65, 0.452);
+}

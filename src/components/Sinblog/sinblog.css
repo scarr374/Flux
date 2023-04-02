@@ -1,0 +1,55 @@
+.sinblog {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.sinblog .actual {
+    width: 800px;
+    padding: 0rem 1rem;
+}
+
+.sinblog .actual .image {
+    display: flex;
+    justify-content: center;
+    background-color: #7d8da1;
+    align-items: center;
+}
+
+.sinblog .actual .image img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.sinblog .actual .image .title h3 {
+    color: #131921da;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.sinblog .actual .text{
+    padding: 1rem;
+}
+
+.sinblog .actual .text .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    color: #7d8da1;
+}
+
+.sinblog .actual .text .top .written .buttom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sinblog .actual .text .top .written .buttom button {
+    padding: 0.3rem 0.5rem;
+    background-color: #0057fa;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+

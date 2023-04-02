@@ -1,0 +1,51 @@
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    gap: 2rem;
+}
+
+.bottom .card {
+    height: 250px;
+    width: 250px;
+    background-color: #7d8da1;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 1rem 2rem rgba(52, 53, 65, 0.452);
+}
+
+.bottom .card .image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.bottom .card .text {
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.bottom .card .text .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.bottom .card .text .top .date {
+    color: #7d8da1;
+}
+
+.bottom .card .text .top .button button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #131921;
+    cursor: pointer;
+}
+
+.bottom .card .text .little p{
+    font-size: 14px;
+}
